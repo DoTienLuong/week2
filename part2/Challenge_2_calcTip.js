@@ -17,7 +17,7 @@ function callTip(bills){
 var tipArr = callTip(bills);
 console.log(tipArr)
 
-var tipArr2 = bills.map(function(element, index, array){
+var tipArr2 = bills.map(function(element){
     return element >= 50 && element <= 300 ? element*15/100 : element*25/100;
 });
 
