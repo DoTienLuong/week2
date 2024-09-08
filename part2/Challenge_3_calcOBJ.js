@@ -3,3 +3,5 @@ var infoMark = {
     'mass': 78,
     'height': 169,
 }
+
+console.log(infoMark);
